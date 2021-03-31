@@ -1,11 +1,12 @@
 import domElements from './domElements.js';
-
+import slider from './slider.js';
 class App {
   constructor() {
     // Init
     this.sticyNavigation();
     this.revealSections();
     this.lazyLoading();
+    slider;
 
     // Event Listeners
     domElements.btnsOpenModal.forEach(btn =>
